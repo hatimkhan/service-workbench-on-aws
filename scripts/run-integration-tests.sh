@@ -37,5 +37,5 @@ if [ "$TEST_CONFIG_EXISTS" == true ]; then
 else
     # Create empty report file
     mkdir -p main/integration-tests/.build/test
-    echo 'No integration tests were run. Please provide your test config file to run integration tests' > "main/integration-tests/.build/test/junit.xml"
+    echo '<?xml version="1.0" encoding="UTF-8"?> <div> No integration tests were run. Please provide your test config file to run integration tests </div>' > "main/integration-tests/.build/test/junit.xml"
 fi
