@@ -19,5 +19,12 @@
   "editor.formatOnSave": true,
   "eslint.packageManager": "pnpm",
   "prettier.packageManager": "pnpm",
-  "eslint.workingDirectories": [{ "mode": "auto" }]
+  "eslint.workingDirectories": [
+    {
+      "mode": "auto"
+    }
+  ],
+  "cucumberautocomplete.steps": ["main/integration-tests/features/steps/*.js"],
+  "cucumberautocomplete.strictGherkinCompletion": true,
+  "editor.quickSuggestions": { "strings": true }
 }
